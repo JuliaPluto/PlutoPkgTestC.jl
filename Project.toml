@@ -1,7 +1,11 @@
 name = "PlutoPkgTestC"
 uuid = "18c53ed2-8479-4d56-bd92-ce69275a063b"
 authors = ["Fons van der Plas <fons@plutojl.org>"]
-version = "0.1.0"
+version = "1.0.0"
 
 [deps]
 Pkg = "44cfe95a-1eb2-52ea-b672-e2afdf69b78f"
+PlutoPkgTestA = "419c6f8d-b8cd-4309-abdc-cee491252f94"
+
+[compat]
+PlutoPkgTestA = "0.2"
